@@ -8,6 +8,14 @@ ApplicationWindow {
     height: 480
     title: qsTr("Version Control")
 
+//    Button {
+//        id: dummybtn
+//        text: "Help"
+//        onClicked: {
+//            console.log("Dummy button pressed. Display msg:" + TextField.text);
+//        }
+//    }
+
     SwipeView {
         id: swipeView
         anchors.fill: parent
@@ -32,6 +40,9 @@ ApplicationWindow {
         }
         TabButton {
             text: qsTr("Second")
+        }
+        TabButton {
+            text: qsTr("Dummy Btn")
         }
     }
 }
