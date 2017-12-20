@@ -18,7 +18,7 @@ ApplicationWindow {
 
         Page {
             Label {
-                text: qsTr("Second page")
+                text: qsTr("This is second page")
                 anchors.centerIn: parent
             }
         }
@@ -28,10 +28,10 @@ ApplicationWindow {
         id: tabBar
         currentIndex: swipeView.currentIndex
         TabButton {
-            text: qsTr("First")
+            text: qsTr("Previous")
         }
         TabButton {
-            text: qsTr("Second")
+            text: qsTr("Next")
         }
     }
 }
