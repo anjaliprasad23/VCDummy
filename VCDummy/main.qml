@@ -48,5 +48,8 @@ ApplicationWindow {
         TabButton {
             text: qsTr("Dummy5 tab")
         }
+        TabButton {
+            text: qsTr("Dummy6 tab")
+        }
     }
 }
